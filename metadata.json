@@ -1,0 +1,6 @@
+{
+  "name": "يلا لايف - بث مباشر",
+  "description": "موقع لبث المباريات والأحداث الرياضية المباشرة مجاناً.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
