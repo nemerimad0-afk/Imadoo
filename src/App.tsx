@@ -8,9 +8,9 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Navigate to="/sport/football" replace />} />
-          <Route path="sport/:sportId" element={<HomePage />} />
-          <Route path="match/:sportId/:matchId" element={<MatchPage />} />
+          <Route index element={<Navigate to="/today" replace />} />
+          <Route path=":filter" element={<HomePage />} />
+          <Route path="match/:matchId" element={<MatchPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
